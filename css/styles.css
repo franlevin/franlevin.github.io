@@ -1,4 +1,13 @@
 /** Global **/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
 .title{
     margin: 0 auto;
 }
@@ -6,8 +15,8 @@
 .barra{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    padding-top: 25px;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
     align-items: center;
 }
 
@@ -19,41 +28,47 @@
 /** Headers **/
 #h1 {
     color: palevioletred;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 #site-header {
     background-color: lightcoral;
-    font-size: 50;
+    font-size: 5rem;
 }
 
 .site-header.home {
     background-color: plum;
-    font-size: 50;
-    max-width: 1200px;
-    min-height: 150px;
-    max-height: 150px;
+    font-size: 5rem;
+    max-width: 120rem;
+    min-height: 15rem;
+    max-height: 15rem;
     margin: 0 auto;
     background-image: url(../img/header-background.png);
     background-size: cover;
 }
 
 .header-title {
-    max-width: 1080px;
+    max-width: 108rem;
     color: palevioletred;
-    font-size: 20px;
+    font-size: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 /** Navegadores **/
 
+.navegador {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .navegador a {
-    color: white;
-    font-size: 20px;
+    color: rgb(146, 135, 161);
+    font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 .navegador a:hover {
